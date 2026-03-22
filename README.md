@@ -4,15 +4,11 @@
 
 I built this lab to get hands-on experience with Active Directory and Windows Server. I followed along with Josh Madakor's tutorial on YouTube and set everything up using VirtualBox on my Mac. The lab has two virtual machines — a Windows Server 2019 domain controller and a Windows 10 client — connected on a private internal network.
 
----
-
 ## What I Used
 
 - VirtualBox (free)
 - Windows Server 2019 Evaluation (free 180-day trial from Microsoft)
 - Windows 10 Pro Evaluation (free from Microsoft)
-
----
 
 ## What I Did
 
@@ -36,8 +32,6 @@ I used a PowerShell script to bulk create over 1000 user accounts in Active Dire
 
 **7. Set up the Windows 10 client**
 I created a Windows 10 VM, joined it to `mydomain.com`, and verified it received an IP from the DHCP server. I was then able to log into the client using any of the accounts created by the script.
-
----
 
 ## Screenshots
 
@@ -88,8 +82,6 @@ I created a Windows 10 VM, joined it to `mydomain.com`, and verified it received
 
 ### DHCP lease showing client got an IP
 ![DHCP Lease](screenshots/S16.jpg)
-
----
 
 ## Reference
 
